@@ -1,5 +1,98 @@
-main{
+body {
+    margin: 0;
+    /* padding: 4px; */
+    background-color: rgb(29, 98, 122);
+}
+
+
+main {
     display: grid;
     grid-template-columns: 1fr 3fr;
- 
+    padding: 50px;
+     
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 2px; */
+    background-color: rgb(17, 78, 78);
+    margin-bottom: 0%;
+    
+    
+}
+
+h1 {
+    font-size: 36pt;
+    padding-left: 12px;
+    background-color: rgb(45, 153, 90);
+    
+}
+
+
+nav {
+    font-size: 16pt;
+    color: black;
+    padding-right: 18px;
+    background-color:  rgb(45, 153, 90);     
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+
+.hero {
+    height: 200px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-color: rgb(45, 153, 90);
+    background-size: cover;
+}
+
+.hero p {
+    text-align: center;
+    padding-top: 100px;
+    font-size: 24pt;
+    
+}
+
+#AboutMe {
+    font-size: 18pt;
+}
+
+#Work {
+    font-size: 18pt;
+}
+
+#Resume {
+    font-size: 18pt;
+}
+
+#ContactMe {
+    font-size: 18pt;
+    
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 50px; 
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li {
+    display: inline-block;
+    text-align: center;
+    margin-left: 60px;
+    font-size: 16pt;
 }
