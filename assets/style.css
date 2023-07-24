@@ -65,18 +65,35 @@ nav ul li {
 
 #AboutMe {
     font-size: 18pt;
+    border-right: 6px solid black;
+}
+
+#AboutMeContent {
+    padding-left: 16px;
 }
 
 #Work {
     font-size: 18pt;
+    border-right: 6px solid black;
+}
+
+#WorkContent {
+    padding-left: 16px;
 }
 
 #Resume {
     font-size: 18pt;
+    border-right: 6px solid black;
+}
+
+#ResumeContent {
+    padding-left: 16px;
 }
 
 #ContactMe {
     font-size: 18pt;
+    border-right: 6px solid black;
+
     
 }
 
