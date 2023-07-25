@@ -81,6 +81,10 @@ nav ul li {
     padding-left: 16px;
 }
 
+#SoftwareDeveloper {
+    max-height: 200px;
+}
+
 #Resume {
     font-size: 18pt;
     border-right: 6px solid black;
@@ -96,6 +100,7 @@ nav ul li {
 
     
 }
+
 
 footer {
     display: grid;
