@@ -169,16 +169,21 @@ footer ul li {
 /* Here starts the media queries that will allow varoius device accessibility and formatting
 
 /* Cards are split into two columns at 992px or smaller */
-@media screen and (max-width: 992px) {
-    body {
+@media screen and (max-width: 500px) {
+    /* body {
        
         width: 100%;
     }
 
+    #AboutMeContent {
+
+        width: 100%;
+    } */
+
     main {
 
-        width: 400px;
-        grid-template-columns: 1fr 1fr;
+       display: grid;
+       grid-template-columns: 1fr 1fr;
 
     }
 
