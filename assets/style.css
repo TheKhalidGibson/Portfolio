@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    /* padding: 4px; */
+    
     background-color: rgb(29, 98, 122);
 }
 
@@ -16,7 +16,7 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* border: 2px; */
+  
     background-color: rgb(17, 78, 78);
     margin-bottom: 0%;    
 }
@@ -82,11 +82,10 @@ nav ul li {
 
 #WorkContent {
     padding-left: 16px;
-    /* padding-bottom: 500px; */
+   
     grid-template-columns: 3fr;
     display: grid;
-    /* grid-template-rows: repeat(3, 5vw); */
-    /* grid-gap: 50px; */
+ 
     height: 1200px;
     
 }
@@ -169,7 +168,7 @@ footer ul li {
 /* Here starts the media queries that will allow varoius device accessibility and formatting
 
 /* Cards are split into two columns at 992px or smaller */
-@media screen and (max-width: 500px) {
+/* @media screen and (max-width: 500px) { */
     /* body {
        
         width: 100%;
@@ -180,11 +179,11 @@ footer ul li {
         width: 100%;
     } */
 
-    main {
+    /* main {
 
        display: grid;
        grid-template-columns: 1fr 1fr;
 
     }
 
-}
+} */
