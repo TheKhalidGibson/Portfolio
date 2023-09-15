@@ -1,7 +1,7 @@
 body {
     margin: 0;
     
-    background-color: rgb(29, 98, 122);
+    background-color:#0c071f;
 }
 
 
@@ -16,24 +16,24 @@ main {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
-    background-color: rgb(17, 78, 78);
+    background-color: #0c071f;
     margin-bottom: 0%;    
 }
 
 h1 {
     font-size: 36pt;
     padding-left: 12px;
-    background-color: rgb(45, 153, 90);
+    color: #E3E7AF;
     
 }
 
 
-nav {
+nav a {
     font-size: 16pt;
     color: black;
     padding-right: 18px;
-    background-color:  rgb(45, 153, 90);     
+    color: #E3E7AF; 
+    text-decoration: none;     
 }
 
 nav ul {
@@ -50,8 +50,11 @@ nav ul li {
     height: 200px;
     width: 100%;
     margin-bottom: 25px;
-    background-color: rgb(45, 153, 90);
+    margin-top: -33px;
+    margin-left: 40px;
+    background-color:#0c071f;
     background-size: cover;
+    color: #E3E7AF;
 }
 
 .hero p {
@@ -65,12 +68,14 @@ nav ul li {
     font-size: 18pt;
     border-right: 6px solid black;
     padding-bottom: 50px;
+    color: #558B6E
 }
 
 #AboutMeContent {
     padding-left: 16px;
     padding-bottom: 50px;
     font-size: 20pt;
+    color: #E3E7AF
 }
 
 #Work {
@@ -78,6 +83,7 @@ nav ul li {
     border-right: 6px solid black;
     padding-bottom: 500px;
     height: 1200px;
+    color: #558B6E
 }
 
 #WorkContent {
@@ -96,7 +102,7 @@ nav ul li {
     height: 600px;
     position: relative;
     margin: auto;
-    width: 1376px;
+    width: 1200px;
     
 }
 
@@ -105,7 +111,7 @@ nav ul li {
 }
 
 #HTML img{
-    width:669.69px;
+    width: 580px;
 }
 
 #Js {
@@ -113,16 +119,18 @@ nav ul li {
 }
 
 #Js img {
-    width: 669.69px;
+    width: 580px;
 }
 
 .Photo {
-    border: 20px solid whitesmoke;
+    margin-top: -5px;
+    border: 20px solid #33658A;
 }
 
 #Resume {
     font-size: 18pt;
     border-right: 6px solid black;
+    color: #558B6E
 }
 
 #ResumeContent {
@@ -132,16 +140,24 @@ nav ul li {
     height: fit-content;
 }
 
+#ResumeContentBtn {
+    background-color: #E3E7AF;
+    
+
+}
+
+
 #ContactMe {
     font-size: 18pt;
     border-right: 6px solid black;
-    width: 235px
-      
+    width: 155px;
+    color: #558B6E 
 }
 
 #ContactMeContent {
-    padding-left: 10px;
-       
+    padding-left: -10px;
+    margin-left: -70px;
+         
 }
 
 
@@ -154,8 +170,11 @@ footer {
 
 footer ul {
     list-style-type: none;
+    color: #E3E7AF;
     padding: 50px;
-    grid-template-columns: 3fr;
+    /* text-align: center; */
+    /* margin-left: 50px;
+    grid-template-columns: 3fr; */
 }
 
 footer ul li {
