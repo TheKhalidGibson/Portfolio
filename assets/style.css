@@ -84,14 +84,16 @@ nav ul li {
     padding-bottom: 500px;
     height: 1200px;
     color: #558B6E
+    
 }
 
 #WorkContent {
     padding-left: 16px;
    
     grid-template-columns: 3fr;
-    display: grid;
- 
+    /* display: grid; */
+    
+
     height: 1200px;
     
 }
@@ -198,6 +200,29 @@ footer ul li {
 }
 
 /* Here starts the media queries that will allow varoius device accessibility and formatting
+/* Tablets  */
+@media screen and (max-width: 992px) {
+    
+  }
+  
+  /* Large smartphones */
+  @media screen and (max-width: 768px) {
+    
+  }
+  
+  /* Small smartphones */
+  @media screen and (max-width: 576px) {
+    
+  }
+
+
+
+
+
+
+
+
+
 
 /* Cards are split into two columns at 992px or smaller */
 /* @media screen and (max-width: 500px) { */
@@ -209,7 +234,8 @@ footer ul li {
     #AboutMeContent {
 
         width: 100%;
-    } */
+    }
+     */
 
     /* main {
 
