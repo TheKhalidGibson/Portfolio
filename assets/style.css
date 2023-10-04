@@ -127,6 +127,11 @@ nav ul li {
     border: 20px solid #33658A;
 }
 
+.Photo:hover{
+
+    opacity: 30%;
+}
+
 #Resume {
     font-size: 18pt;
     border-right: 6px solid black;
@@ -145,6 +150,13 @@ nav ul li {
     background-color: #E3E7AF;
     
 
+}
+
+.avatar{
+
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
 }
 
 
